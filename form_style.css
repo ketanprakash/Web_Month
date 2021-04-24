@@ -1,0 +1,67 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 30px;
+}
+
+div{
+    display: block;
+    margin: auto;
+    padding: 25px;
+    width: fit-content;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1a73e8;
+    text-align: center;
+}
+.heading{
+    font-size: 20px;
+}
+
+.formtb{
+    margin: auto;
+}
+.formtb td{
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+span{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.field{
+    outline: none;
+    padding: 15px;
+    width: 250px;
+    font-size: 15px;
+}
+
+.sbutton{
+    border-color: #003cff;
+    border-radius: 5px;
+    background-color: #003cff;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.sbutton:hover{
+    cursor:pointer;
+    border-color: #1a2fe8;
+    background-color: #1a2fe8;
+}
+
+.field:hover, .field:focus{
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.field:focus{
+    border-color: #1a73e8;
+}
